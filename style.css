@@ -1,0 +1,52 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-color: #FFC857;
+  font-family: "Open Sans Condensed", sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  font-style: bold;
+  color: #481D24;
+}
+
+h2 {
+  margin-top: 2em;
+  color: #255F85;
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+
+.answer-choice img {
+  height: 10em;
+  width: 15em;
+  border-radius: 10%;
+}
+
+.imgbutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.answer-choice {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+button {
+  border-radius: 20%;
+  background-color: #C5283D;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.restart {
+  display: flex;
+  justify-content: center;
+}
